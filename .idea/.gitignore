@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml/
+/IP6_UX_und_Usability_fuer_Patient_Matched_Production_Prozess_von_medizinischen_Implantaten.iml/
+/misc.xml/
+/modules.xml/
+/runConfigurations.xml/
+/vcs.xml/
+# Editor-based HTTP Client requests
+/httpRequests/
