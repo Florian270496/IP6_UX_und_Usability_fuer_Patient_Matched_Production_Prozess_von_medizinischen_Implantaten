@@ -12,7 +12,7 @@
 
     #myBar {
         position: absolute;
-        width: 10%;
+        width: 20%;
         height: 100%;
         border-radius: 50%;
         /*background-color: #4CAF50;*/
@@ -31,7 +31,7 @@
 
 <div id="myProgress">
     <div id="myBar">
-        <div id="label">10%</div>
+        <div id="label" style="margin-top:130px;">20%</div>
     </div>
 </div>
 
@@ -41,8 +41,8 @@
 <script>
     function move() {
         var elem = document.getElementById("myBar");
-        var width = 10;
-        var id = setInterval(frame, 10);
+        var width = 20;
+        var id = setInterval(frame, 20);
         function frame() {
             if (width >= 100) {
                 clearInterval(id);
